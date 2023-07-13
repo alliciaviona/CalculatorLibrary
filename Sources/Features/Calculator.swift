@@ -7,21 +7,23 @@
 
 import Foundation
 
-class Calculator {
+public class Calculator {
     
-    func add(valueA: Int, valueB: Int) -> Int {
+    public init() {}
+    
+    public func add(valueA: Int, valueB: Int) -> Int {
         return valueA + valueB
     }
     
-    func subtract(valueA: Int, valueB: Int) -> Int {
+    public func subtract(valueA: Int, valueB: Int) -> Int {
         return valueA - valueB
     }
     
-    func multiply(valueA: Int, valueB: Int) -> Int {
+    public func multiply(valueA: Int, valueB: Int) -> Int {
         return valueA * valueB
     }
     
-    func divide(valueToDivide: Int, divisor: Int) -> Int {
+    public func divide(valueToDivide: Int, divisor: Int) -> Int {
         return valueToDivide / divisor
     }
     
